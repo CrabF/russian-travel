@@ -1,0 +1,6 @@
+.place__image {
+  width: 100%;
+  object-fit: contain;
+  box-sizing: border-box;
+  object-position: center;
+}
