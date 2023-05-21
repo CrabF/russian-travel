@@ -10,8 +10,8 @@
 /*header*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header-lang-menu/header-lang-menu.css);
-@import url(../blocks/header-lang-menu/__item/header-lang-menu__item.css);
+@import url(../blocks/header/__lang-menu/header__lang-menu.css);
+@import url(../blocks/header/__lang-menu-item/header__lang-menu-item.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 /*lead*/

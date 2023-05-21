@@ -5,18 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <link rel="stylesheet" href="./vendor/fonts/fonts.css">
   <title>Путешествия по России</title>
 </head>
 <body class="root">
   <div class="page">
     <header class="header">
       <img class="header__logo" src="./images/header/header-logo.svg" alt="Карта России">
-      <ul class="header-lang-menu">
-        <li class="header-lang-menu__item">
+      <ul class="header__lang-menu">
+        <li class="header__lang-menu-item">
           <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
         </li>
-        <li class="header-lang-menu__item">
+        <li class="header__lang-menu-item">
           <a class="header__lang-link" href="#">En</a>
         </li>
       </ul>
@@ -32,11 +31,21 @@
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li><span class="intro__accent">Часовых поясов</span> 11</li>
-          <li><span class="intro__accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
-          <li><span class="intro__accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
-          <li><span class="intro__accent">Природных заповедников</span> 105</li>
-          <li><span class="intro__accent">Аэропортов</span> 241</li>
+          <li>Часовых поясов
+            <span class="intro__accent"> 11</span>
+          </li>
+          <li>Объектов природного наследия ЮНЕСКО
+            <span class="intro__accent"> 12</span>
+          </li>
+          <li>Объектов культурного наследия ЮНЕСКО
+            <span class="intro__accent"> 16</span>
+          </li>
+          <li>Природных заповедников
+            <span class="intro__accent"> 105</span>
+          </li>
+          <li>Аэропортов
+            <span class="intro__accent"> 241</span>
+          </li>
         </ul>
       </section>
       <section aria-label="галерея фото" class="photo-grid">
